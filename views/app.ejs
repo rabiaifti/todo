@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="date">
+    <h1> <%= kindofDay %></h1></div>
+
+
+    <div class="items">
+    <ul>
+       <% for (var i = 0; i<=newListItem.length; i++) { %>
+            <li><%= newListItem[i] %></li>
+        <%  } %>
+        
+    </ul>
+    <form action="/" method="post">
+        <input type="text" name="option">
+        <button type="submit" value="<%= buttonValue%>">submit</button>
+    </form></div>
+</body>
+</html>

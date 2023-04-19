@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(145, 178, 226);
+    margin: 10% 37% ;
+    
+}
+
+.date{
+    text-align: center;
+    background-color: aliceblue;
+
+}
+
+
+.items{
+    text-align: center;
+    background-color: aliceblue;
+    display: flexbox;
+}
